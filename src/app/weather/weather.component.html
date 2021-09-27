@@ -1,0 +1,16 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>City</td>
+            <td>Temperature F</td>
+            <td>Pressure</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dataItem of WeatherList">
+            <td>{{dataItem.name}}</td>
+            <td>{{dataItem.main.temp}}</td>
+            <td>{{dataItem.weather.main}}</td>
+        </tr>
+    </tbody>
+</table>
