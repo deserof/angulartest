@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class SharedService {
-  readonly APIUrl="http://192.168.0.111:5001/api";
+  readonly APIUrl="https://bsite.net/artem01/api";
   readonly Weather="";
 
   constructor(private http:HttpClient) { }
